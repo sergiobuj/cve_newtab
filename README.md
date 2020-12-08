@@ -2,3 +2,8 @@
 Browser Extension for a newtab with CVE feed
 
 ![newtab](docs/img.png)
+
+## Chrome
+
+ - chrome://extensions/
+ - Load Unpacked
