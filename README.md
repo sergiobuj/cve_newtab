@@ -7,3 +7,9 @@ Browser Extension for a newtab with CVE feed
 
  - chrome://extensions/
  - Load Unpacked
+
+## Codespaces
+
+```bash
+python3 -m http.server 8080
+```
