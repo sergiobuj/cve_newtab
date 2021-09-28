@@ -3,6 +3,7 @@
   "name": "CVE NewTab",
   "description": "RSS feed for the Analyzed and Latest CVE reports.",
   "version": "1.0.0",
+  "permissions": [ "*://*.nvd.nist.gov//*" ],
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   }

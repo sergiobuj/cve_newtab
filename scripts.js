@@ -1,6 +1,6 @@
 (function () {
-  let analyzedURL = `https://cors-anywhere.herokuapp.com/https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml`;
-  let latestURL = `https://cors-anywhere.herokuapp.com/https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml`;
+  let analyzedURL = `https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss-analyzed.xml`;
+  let latestURL = `https://nvd.nist.gov/feeds/xml/cve/misc/nvd-rss.xml`;
 
   function renderCVE(url, element) {
     fetch(url, { cache: "no-cache" })
@@ -30,5 +30,4 @@
 
   renderCVE(analyzedURL, `rss_url_analyzed`);
   renderCVE(latestURL, `rss_url_latest`);
-
 })();
